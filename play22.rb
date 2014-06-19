@@ -8,7 +8,6 @@ class Play22 < Formula
   conflicts_with 'sox', :because => 'both install `play` binaries'
 
   def install
-    system "./framework/build", "publish-local" if build.head?
     rm_rf Dir["**/*.bat"]
     libexec.install Dir['*']
     bin.install_symlink libexec/'play'
