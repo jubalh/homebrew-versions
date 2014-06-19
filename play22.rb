@@ -1,8 +1,7 @@
 require 'formula'
 
-class Play < Formula
+class Play22 < Formula
   homepage 'http://www.playframework.org/'
-  head 'https://github.com/playframework/playframework.git'
   url 'http://downloads.typesafe.com/play/2.2.3/play-2.2.3.zip'
   sha1 '16beea55568a6b5876439ffbf908ba6448c5c713'
 
